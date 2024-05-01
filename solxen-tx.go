@@ -11,9 +11,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/zeromicro/go-zero/core/conf"
-	"github.com/zeromicro/go-zero/core/logx"
-	"github.com/zeromicro/go-zero/core/service"
+	"github.com/vandor1215/go-zero/core/conf"
+	"github.com/vandor1215/go-zero/core/logx"
+	"github.com/vandor1215/go-zero/core/service"
 )
 
 var configFile = flag.String("f", "solxen-tx.yaml", "the config file")
